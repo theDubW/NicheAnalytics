@@ -5,7 +5,7 @@ from bs4 import BeautifulSoup
 
 start_link = "https://www.niche.com/k12/search/best-public-high-schools/s/texas/?page="
 #manually changing starting page and using vpn to change results b/c proxies weren't working
-page_num = 65
+page_num = 0
 #current num of pages on niche, subject to change
 page_max = 83
 
@@ -14,7 +14,7 @@ agents = open("user_agents_firefox.txt", 'r')
 headers = {"User-Agent":agents.readline().strip()}
 
 #output file info
-file = open("school_list2.txt", "a")
+file = open("school_list.txt", "a")
 
 while(page_num<=page_max):
     print("Page "+str(page_num))
@@ -29,6 +29,7 @@ while(page_num<=page_max):
     all_schools = search_page_soup.find_all("a", {"class":"search-result__link"})
 
     all_schools = [school['href'] for school in all_schools]
+
     for school in all_schools:
         file.write(school)
         file.write('\n')

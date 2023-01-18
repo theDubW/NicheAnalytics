@@ -1,0 +1,51 @@
+ip,anonymityLevel,asn,country,isp,latency,org,port,protocols,responseTime,speed,updated_at,upTime,upTimeSuccessCount,upTimeTryCount
+"85.26.146.169","elite","AS25159","RU","PJSC MegaFon","N/A","MegaFon-Moscow","80","http","N/A","753","2022-03-15T13:12:50.906Z","100","1","1"
+"51.81.80.44","elite","AS16276","US","OVH SAS","77","OVH US LLC","80","http","N/A","5001","2022-03-15T13:12:36.827Z",,,
+"93.188.161.84","elite","AS47583","US","HOSTINGER US","76","Hostinger International Ltd.","80","http","N/A","5000","2022-03-15T13:12:30.105Z",,,
+"50.206.25.109","elite","AS7922","US","Comcast Cable Communications, LLC","N/A","Comcast Cable Communications, LLC","80","http","N/A","267","2022-03-15T13:12:12.640Z","0","0","1"
+"52.168.142.236","elite","AS8075","US","Microsoft Corporation","N/A","Microsoft Azure Cloud (eastus)","8118","http","N/A","176","2022-03-15T13:12:01.978Z",,,
+"94.23.77.8","elite","AS16276","PT","OVH ISP","157","OVH Hosting LDA","3128","http","N/A","1505","2022-03-15T13:11:49.312Z",,,
+"52.172.138.87","elite","AS8075","IN","Microsoft Corporation","N/A","Microsoft Azure Cloud (centralindia)","80","http","N/A","5001","2022-03-15T13:11:45.517Z",,,
+"222.129.39.98","elite","AS4808","CN","China Unicom Beijing Province Network","160","N/A","57114","http","N/A","5000","2022-03-15T13:11:28.390Z",,,
+"49.233.173.151","elite","AS45090","CN","Shenzhen Tencent Computer Systems Company Limited","N/A","Tencent cloud computing (Beijing) Co., Ltd.","9080","http","N/A","1327","2022-03-15T13:11:22.941Z",,,
+"85.195.123.194","elite","AS20773","DE","Host Europe GmbH","157","zhihuayuan yuan","1080","http","N/A","5000","2022-03-15T13:11:08.690Z",,,
+"167.71.199.228","elite","AS14061","SG","DigitalOcean, LLC","204","DigitalOcean, LLC","8080","http","N/A","5001","2022-03-15T13:11:01.414Z",,,
+"77.222.52.199","elite","AS44112","RU","Spaceweb network","173","SpaceWeb CJSC","3128","http","N/A","921","2022-03-15T13:10:55.724Z",,,
+"129.226.148.192","elite","AS132203","SG","Tencent Cloud Computing (Beijing) Co","195","Aceville Pte.ltd","80","http","N/A","379","2022-03-15T13:10:52.513Z","100","1","1"
+"192.232.196.228","elite","AS46606","US","Unified Layer","29","WEBSITEWELCOME.COM","80","http","N/A","5003","2022-03-15T13:10:46.583Z",,,
+"50.206.25.110","elite","AS7922","US","Comcast Cable Communications, LLC","N/A","Comcast Cable Communications, LLC","80","http","N/A","267","2022-03-15T13:10:39.434Z","0","0","1"
+"5.20.91.12","elite","AS21412","LT","UAB \"Cgates\"","177","CGATES","60792","http","N/A","5001","2022-03-15T13:10:28.776Z",,,
+"85.25.4.28","elite","AS8972","FR","Host Europe GmbH","152","HEG Mass","5566","http","N/A","313","2022-03-15T13:10:16.611Z","100","1","1"
+"72.10.173.106","elite","AS36666","CA","GloboTech Communications","N/A","Tersys Group OU","8118","http","N/A","5001","2022-03-15T13:10:14.021Z",,,
+"167.99.131.11","elite","AS14061","DE","DigitalOcean, LLC","N/A","Digital Ocean","80","http","N/A","5002","2022-03-15T13:09:54.387Z",,,
+"72.47.152.224","elite","AS19108","US","Suddenlink Communications","N/A","Cebridge Connections","55443","http","N/A","5002","2022-03-15T13:09:37.268Z",,,
+"80.93.213.213","elite","AS20649","TR","Fibersunucu","198","N/A","3136","http","N/A","395","2022-03-15T13:09:19.209Z",,,
+"82.223.21.37","elite","AS8560","ES","arsys.es","N/A","N/A","80","http","N/A","5001","2022-03-15T13:09:16.501Z",,,
+"103.123.64.24","elite","AS131111","ID","CEPATNET","209","N/A","8888","http","N/A","5001","2022-03-15T13:08:59.375Z",,,
+"45.121.216.219","elite","AS131111","ID","PT. Mora Telematika Indonesia","203","N/A","55443","http","N/A","5003","2022-03-15T13:08:52.048Z",,,
+"43.255.113.232","elite","AS58424","KH","XINWEITELECOM","N/A","Xinwei(Cambodia)Telecom Co","85","http","N/A","5001","2022-03-15T13:08:37.163Z",,,
+"197.210.217.66","elite","AS29465","NG","MTN NIGERIA Communication limited","236","Enterprise","34808","http","N/A","2649","2022-03-15T13:08:20.033Z",,,
+"210.77.87.71","transparent","AS7497","CN","CSTNET","225","N/A","3128","http","N/A","3198","2022-03-15T13:08:16.809Z",,,
+"211.43.214.205","elite","AS3786","KR","LG DACOM KIDC","145","KIDC","80","http","N/A","5002","2022-03-15T13:08:15.028Z",,,
+"181.57.202.203","transparent","AS14080","CO","Telmex Colombia S.A.","125","Telmex Colombia S.A.","999","http","N/A","252","2022-03-15T13:08:09.275Z",,,
+"49.128.180.234","transparent","AS55666","ID","GMEDIA","205","N/A","8080","http","N/A","5002","2022-03-15T13:08:02.078Z",,,
+"41.65.163.86","transparent","AS36992","EG","Etisalat Misr Mobile BB","190","N/A","1976","http","N/A","395","2022-03-15T13:07:54.754Z","100","1","1"
+"203.170.209.7","transparent","AS133481","TH","Advanced Wireless Network Company Limited","226","N/A","8081","http","N/A","475","2022-03-15T13:07:52.051Z",,,
+"193.34.21.4","elite","AS30779","UA","TRK Cable TV LLC","183","TRK Cable TV LLC","55277","http","N/A","5001","2022-03-15T13:07:52.040Z",,,
+"188.138.106.143","elite","AS8972","FR","Host Europe GmbH","155","HEG Mass","5566","http","N/A","309","2022-03-15T13:07:42.392Z","100","1","1"
+"41.65.193.100","transparent","AS36992","EG","Etisalat Misr","215","N/A","1981","http","N/A","428","2022-03-15T13:07:41.168Z",,,
+"18.134.238.36","elite","AS16509","GB","Amazon Technologies Inc.","N/A","AWS EC2 (eu-west-2)","80","http","N/A","5003","2022-03-15T13:07:39.804Z",,,
+"103.81.104.82","transparent","AS136141","BD","Sajid Trading Ltd","298","Sajid Trading Limited","8080","http","N/A","5000","2022-03-15T13:07:30.945Z","100","1","1"
+"18.134.249.71","elite","AS16509","GB","Amazon Technologies Inc.","N/A","AWS EC2 (eu-west-2)","80","http","N/A","5004","2022-03-15T13:07:22.665Z",,,
+"41.204.87.90","transparent","AS15964","CM","Camtel Dla-tis Stm16","253","N/A","8080","http","N/A","518","2022-03-15T13:07:21.134Z",,,
+"41.60.232.190","transparent","AS30844","KE","Maintainer Liquid Telecommunications Operations Limited","453","Liquid Telecommunications Operations Limited","8080","http","N/A","807","2022-03-15T13:07:12.891Z",,,
+"160.16.242.164","elite","AS9370","JP","SAKURA Internet Inc.","108","SAKURA Internet Inc.","3128","http","N/A","5001","2022-03-15T13:07:05.531Z",,,
+"103.7.27.186","transparent","AS38566","KH","NTT (Thailand) Limited","202","NTT","8080","http","N/A","1763","2022-03-15T13:07:01.647Z",,,
+"170.254.224.7","elite","AS28125","BR","Ciotec Telecom Ltda ME","195","Mega NET Cataguases Provedor De Internet Telecom","55443","http","N/A","5001","2022-03-15T13:06:58.277Z",,,
+"45.5.57.122","transparent","AS266757","PE","Satelital Telecomunicaciones S.A.C","165","Lelitv Eirl","8080","http","N/A","336","2022-03-15T13:06:57.562Z","100","1","1"
+"58.27.233.34","transparent","AS38264","PK","Wateen Telecom Limited","277","NetOps-Stm4","8080","http","N/A","570","2022-03-15T13:06:52.747Z","100","1","1"
+"150.136.5.47","elite","AS31898","US","Oracle Corporation","N/A","Oracle Cloud Infrastructure (us-ashburn-1)","80","http","N/A","5004","2022-03-15T13:06:50.949Z",,,
+"161.189.32.94","transparent","AS135629","CN","Ningxia West Cloud Data Technology Co.Ltd.","N/A","AWS EC2 (cn-northwest-1)","3128","http","N/A","5001","2022-03-15T13:06:44.948Z",,,
+"129.159.45.104","elite","AS31898","US","Oracle Corporation","N/A","Oracle Cloud Infrastructure (us-sanjose-1)","80","http","N/A","5002","2022-03-15T13:06:31.355Z",,,
+"168.181.196.76","transparent","AS262296","BR","Windx TelecomunicaÔÔes","178","Windx Telecomunicações","8080","http","N/A","5001","2022-03-15T13:06:29.483Z",,,
+"125.25.206.28","transparent","AS23969","TH","TOT Public Company Limited","201","Addresses for","8080","http","N/A","224","2022-03-15T13:06:19.703Z","100","1","1"

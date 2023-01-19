@@ -13,11 +13,11 @@ page_num = 1
 page_max = 83
 headers = {"User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:97.0) Gecko/20100101 Firefox/97.0"}
 proxies = {}
-output_file_name = "school_data.csv"
+output_file_name = "Output/school_data.csv"
 
-agents = open("user_agents_firefox.txt", 'r')
+agents = open("UserAgents/user_agents_firefox.txt", 'r')
 
-proxy_file = open("Free_Proxy_List.csv", 'r')
+proxy_file = open("UserAgents/Free_Proxy_List.csv", 'r')
 proxy_file.readline()
 
 
@@ -34,7 +34,7 @@ with open(output_file_name, "a", newline='') as output:
         print(headers)
     except:
         agents.close()
-        agents = open("user_agents_firefox.txt", 'r')
+        agents = open("UserAgents/user_agents_firefox.txt", 'r')
         headers = {"User-Agent": agents.readline().strip()}
     writer = csv.writer(output)
     writer.writerow(["School Name", "Niche Rank", "Number of Students", "Number of Seniors", "Proportion interested in UT", "Number of Seniors interested"])
@@ -62,7 +62,7 @@ with open(output_file_name, "a", newline='') as output:
                 headers = {"User-Agent": agents.readline().strip()}
             except:
                 agents.close()
-                agents = open("user_agents_firefox.txt", 'r')
+                agents = open("UserAgents/user_agents_firefox.txt", 'r')
                 headers = {"User-Agent": agents.readline().strip()}
 
             school_page = requests.post(school, headers=headers, proxies=proxies)

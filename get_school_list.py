@@ -10,11 +10,11 @@ page_num = 0
 page_max = 83
 
 #headers
-agents = open("user_agents_firefox.txt", 'r')
+agents = open("UserAgents/user_agents_firefox.txt", 'r')
 headers = {"User-Agent":agents.readline().strip()}
 
 #output file info
-file = open("school_list.txt", "a")
+file = open("Schools/school_list.txt", "a")
 
 while(page_num<=page_max):
     print("Page "+str(page_num))

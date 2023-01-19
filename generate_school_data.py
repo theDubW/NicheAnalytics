@@ -5,18 +5,18 @@ import csv
 import time
 from random import randint
 
-school_list = open("school_list.txt").readlines()
+school_list = open("Schools/school_list.txt").readlines()
 
 #manually change start link in case of timeout/crash
 start_link = 0
 school_list = school_list[start_link:]
 
-agents = open("user_agents_firefox.txt", 'r')
+agents = open("UserAgents/user_agents_firefox.txt", 'r')
 numTimes = randint(0,2030)
 
 #output files
-output_file_name = "school_data.csv"
-failed_links_file = "failed_links.txt"
+output_file_name = "Output/school_data.csv"
+failed_links_file = "Output/failed_links.txt"
 failed_writer = open(failed_links_file, "w")
 
 for i in range(numTimes):
@@ -34,7 +34,7 @@ with open(output_file_name, "a", newline='') as output:
             headers = {"User-Agent": agents.readline().strip()}
         except:
             agents.close()
-            agents = open("user_agents_firefox.txt", 'r')
+            agents = open("UserAgents/user_agents_firefox.txt", 'r')
             headers = {"User-Agent": agents.readline().strip()}
         print(school+", "+str(headers))
 
@@ -50,7 +50,7 @@ with open(output_file_name, "a", newline='') as output:
                 headers = {"User-Agent": agents.readline().strip()}
             except:
                 agents.close()
-                agents = open("user_agents_firefox.txt", 'r')
+                agents = open("UserAgents/user_agents_firefox.txt", 'r')
                 headers = {"User-Agent": agents.readline().strip()}
             time.sleep(30+5*timesFail)
             timesFail +=1
